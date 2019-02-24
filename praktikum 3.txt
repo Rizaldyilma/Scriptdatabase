@@ -1,0 +1,60 @@
+
+
+HALLO SELAMAT DATANG DI CHANNEL " RIZALDY RIPOY "
+
+
+
+SAYA AKAN MEMBAHAS PERINTAH - PERINTAH SELECT
+
+Dan saya telah menyiapkan databasenya
+dengan nama =' praktikum4'
+2 tabel= ' pegawai' dan 'pet'.
+
+
+Tampilkan pegawai yang gajinya bukan 2.000.000 dan 1.250.000 !
+         SELECT*FROM pegawai WHERE gaji<>'2000000 AND gaji<>'1250000';
+
+Tampilkan pegawai yang tunjangannya NULL!
+         SELECT*FROM pegawai WHERE tunjangan='NULL';
+
+Tampilkan/hitung jumlah baris/record tabel pegawai!
+         SELECT COUNT(id_pegawai) FROM pegawai;
+
+Tampilkan/hitung jumlah total gaji di tabel pegawai!
+         SELECT SUM(gaji) AS jumlah FROM pegawai;
+
+Tampilkan/hitung rata-rata gaji pegawai!
+         SELECT AVG(gaji) AS rerata FROM pegawai;
+
+Tampilkan gaji terkecil!
+         SELECT MIN(gaji) AS terkecil FROM pegawai;
+
+Tampilkan gaji terbesar!
+         SELECT MAX(gaji) AS terbesar FROM pegawai;
+
+
+
+Kemudian kita tampilkan tabel pet
+
+Tampilkan jumlah hewan yang dimiliki setiap owner.
+         SELECT OWNER, COUNT(name) AS jumlah FROM pet GROUP BY OWNER;
+
+Tampilkan jumlah hewan berdasarkan spesies
+         SELECT species, COUNT(name) AS jumlah FROM pet GROUP BY species;
+
+Tampilkan jumlah hewan berdasarkan jenis kelamin
+         SELECT sex, COUNT(name) AS jumlah FROM pet GROUP BY sex;
+
+Tampilkan jumlah hewan berdasarkan spesies dan jenis kelamin
+         SELECT species, sex, COUNT(name) AS jumlah FROM pet GROUP BY species, sex;
+
+Tampilkan jumlah hewan berdasarkan species (cat dan dog saja) dan jenis kelamin
+         SELECT SPECIES='cat', species='dog', sex, sum(name) AS jumlah FROM pet GROUP BY species='cat','dog',sex;
+
+
+
+
+
+
+				sekian untuk video kali ini
+				       " TERIMA KASIH "

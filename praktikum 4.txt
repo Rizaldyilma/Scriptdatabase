@@ -1,0 +1,29 @@
+
+
+HALO SELAMAT DATANG DI CHANNEL " RIZALDY RIPOY "
+
+
+DI VIDEO KALI INI SAYA AKAN MEMBAHAS MENGENAI PENGGUNAAN OPERASI JOIN PADA TABEL
+DATABASE
+
+OPERASI JOIN DIGUNAKAN UNTUK MENGGABUNGKAN 2 TABEL ATAU LEBIH DENGAN HASIL BERUPA
+GABUNGAN DARI KOLOM-KOLOM YANG BERASAL DARI TABEL-TABEL TERSEBUT
+
+
+
+
+Pertama kita buat tabel databasenya dengan nama " sewamobil "
+lalu kita buat tiga tabel yaitu :
+-tabel mobil
+-tabel pelanggan
+-tabel sewa
+lalu kita cek satu persatu
+kemudian isi tabel yang kita buat tadi lalu cek
+
+
+
+Selanjutnya kita akan coba mengaplikasikan perintah join
+dengan perintah:
+SELECT <field> FROM table1
+INNER JOIN | LEFT JOIN | RIGHT JOIN | LEFT OUTER JOIN | RIGHT OUTER JOIN | ON table1.key;
+untuk join tergantung dari tabel mana yang akan kita gabungkan

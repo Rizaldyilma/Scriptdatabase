@@ -1,0 +1,61 @@
+
+HALO SELAMAT DATANG DI CHANNEL " RIZALDY RIPOY  "
+
+DI VIDEO KALI INI SAYA AKAN MEMBUAT TUTORIAL SQL DASAR TENTANG
+PERINTAH INSERT, UPDATE, DELETE, DAN SELECT.
+
+
+langsung saja kita mulai
+
+
+
+1.Buka apk XAMPP lalu klik start
+  kemudian masuk ke cmd dan mysql
+
+
+2.Selanjutnya buat DATABASE dan TABEL
+   isi data pada tabel dengan perintah;
+        INSERT INTO <table_nama> (field,.......,field)VALUE  (value,.......,value);
+        lalu silahkan kalian cek
+   SELECT*FROM <table>;
+
+   kita buat sebanyak 3 atau 5 kali dengan langkah yang sama
+
+
+3.Cara mengubah data pada tabel dan menghapus data.
+   mengubah data dengan perintah;
+   UPDATE <table> SET field ='value1,........,fieldn=valuen WHERE <kondisi>;
+
+   menghapus data dengan perintah;
+   DELETE FROM <table_nama> WHERE <kondisi>;
+
+
+4.Menampilkan data dengan beberapa filter
+   -menampilkan satu baris data dengan perintah;
+   SELECT (field,.......,fieldn) FROM <table> WHERE <kondisi>;
+
+
+5.Menampilkan data dengan operator kondisi seperti;
+   = , > , < , >= , <= , <>
+   menggunakan perintah;
+   SELECT*FROM <table> WHERE <kondisi>;
+
+
+6.Menampilkan data dengan logika (AND) dan (OR).
+   logika (AND) dengan perintah.
+   SELECT*FROM <table> WHERE <kondisi> AND/OR <kondisi>;
+   logika (AND) dan (OR) dengan perintah
+   SELECT*FROM <table> WHERE <kondisi> AND <kondisi> OR <kondisi>;
+
+
+7.Cara menampilkan kolom dengan perintah;
+   SELECT (field,......,fieldn) FROM <table>;
+
+
+8.Terakhir menampilkan data secara berurut dengan perintah ;
+   SELECT*FROM <table> ORDER BY (field) ASC/DESC;
+
+
+
+		       SEKIAN VIDEO TUTORIAL KALI INI
+                               	    	    " TERIMA KASIH "

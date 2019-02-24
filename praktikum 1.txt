@@ -1,0 +1,140 @@
+
+
+
+
+HALO SELAMAT DATANG DI CHANNEL "RIZALDY RIPOY"
+
+
+
+
+
+
+di video kali ini saya akan membahas tentang cara membuat database
+menggunakan XAMPP DI cmd
+
+
+
+
+
+
+1.Buka aplikasi "XAMPP control panel" lalu klik start
+
+
+
+
+
+
+2.Setelah itu kita masuk ke CMDnya dan masuk ke MySQL
+
+
+
+
+
+
+3.Kemudian kita buat DATABASE nya menggunakan perintah
+  CREATE DATABASE [nama_database];
+
+
+
+
+
+
+4.Dan untuk mengetahui atau menampilkan DATABASE
+  yaitu menggunakan perintah : SHOW DATABASES;
+
+
+
+
+
+5.Kemudian setelah kita membuat database, kita masuk kedalam
+  database menggunakan perintah : USE nama_database; lalu akan
+  muncul kata "Database changed" perintah USE juga bisa untuk
+  mengganti database
+
+
+
+
+
+6.Setelah berada dalam database kemudian kita membuat tabel,
+  perintah untuk tabel yaitu : 
+  CREATE TABLE nama_table (nama_field tipe_data(ukuran));
+
+
+
+
+
+7.Kemudian jika kita ingin mengetahui atau menampilkan tabel yang sudah
+  kita buat dengan menggunakan perintah :
+  DESCRIBE nama_tabel; atau DESC nama_tabel;
+
+
+
+
+
+8.Jika kita ingin melakukan perubahan pada tabel yang dibuat digunakan
+  perintah ALTER, perintah ALTER dapat digunakan untuk
+  -menambah field   -mengubah nama field
+  -menghapus field   -mengubah tipe data
+  -menambahkan atau menghapus index atau key
+
+
+
+
+
+9.Menambahkan field perintahnya yaitu :
+  ALTER TABLE nama_tabel ADD COLUMN nama_field tipe_data(ukuran)
+  [AFTER | BEFORE | FIRST ];
+  kemudian kita cek dengan perintah DESCRIBE
+
+
+
+
+
+10.Mengubah nama field perintahnya yaitu :
+   ALTER TABLE nama_tabel CHANGE nama_field_lama nama_field_baru
+   tipe_data(ukuran);
+   kemudian kita cek dengan perintah DESCRIBE
+
+
+
+
+
+11.Mengubah tipe data perintahnya yaitu :
+   ALTER TABLE nama_tabel MODIFY nama_field tipe_data_baru(ukuran);
+   kemudian kita cek dengan perintah DESCRIBE
+
+
+
+
+
+12.Menghapus field perintahnya yaitu :
+   ALTER TABLE nama_tabel DROP nama_field;
+   kemudian kita cek dengan perintah menampilkan tabel yang tadi
+
+
+
+
+
+13.Menambah index atau key perintahnya yaitu :
+   ALTER TABLE nama_tabel ADD [ INDEX ] (nama_field);
+   atau bisa juga menggunakan perintah :
+   CREATE INDEX nama_index ON nama_tabel (nama_field);
+
+   tipe index :
+   -PRIMARY KEY   -UNIQUE KEY   -FULLTEXT
+   kemudian kita cek dengan perintah DESCRIBE
+
+
+
+
+
+14.Menghapus index perintahnya yaitu :
+   ALTER TABLE nama_tabel DROP [ INDEX ];
+   kemudian kita cek dengan perintah DESCRIBE
+
+
+
+
+		
+				"TERIMA KASIH"
+
